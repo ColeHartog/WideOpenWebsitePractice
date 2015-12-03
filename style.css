@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#LContainer {
+    width: 100%;
+}
+
+.LCD {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#LCD1 {
+    background-image: url(http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.png);
+    background-position:bottom;
+    height: 80vh;
+    background-size: cover;
+}
+
+#header {
+    width: 100%;
+    height: 20%;
+    padding: 30px 0;
+}
+
+#logo {
+    
+    display: inline-block;
+    height: 200px;
+    width: 250px;
+    margin-left: 325px;
+    margin-right: 200px;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+.HI {
+    text-transform: uppercase;
+    display: inline-block;
+    color: white;
+    padding: 0 10px;
+    position: relative;
+    left: -100px;
+    top: -20px;
+    font-size: 14px;
+}
+
+.HI:hover {
+    color: limegreen;
+    cursor: pointer;
+}
+
+#SContainer {
+    width: 80%;
+    margin: 0 10%;
+}
+
+#introText {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -50px;
+}
+
+#YourDigital {
+    position: absolute;
+    left: 250px;
+}
+
+h1 {
+    font-size: 130px;
+    font-weight: 100;
+}
+
+#BBS {
+    position: absolute;
+    left:475px;
+    top: 125px;
+}
+
+#Solutions {
+    color: #EBA371;
+}
+
+#Ideas {
+    color: #A6F046;
+}
+
+#_1 {
+    position: absolute;
+    top: -75px;
+    left: 300px;
+}
+
+#_2 {
+    position: absolute;
+    top: -75px;
+    left: 900px;
+}
+
+.Flip {
+    display: inline-block;
+    width: 200px;
+    padding: 40px;
+    height: 200px;
+    margin-left: -5px;
+    
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    overflow: hidden;
+}
+
+.Flip:hover {
+    -webkit-transform:rotatey(180deg);
+    transform:rotatey(180deg);
+    cursor: pointer;
+}
+
+#FlipMA {
+    background-color: #32BAB1;
+}
+
+#phone {
+    width: 120px;
+    height: 120px;
+    background: url(sprite_home.png) -97px 10px;
+}
+
+#FlipES {
+    background-color: #4B689C; 
+}
+
+#SC {
+    width: 120px;
+    height: 120px;
+    background: url(sprite_home.png) -297px 20px;
+}
+
+#FlipCS {
+    background-color: #B0B0B0;
+}
+
+#computer {
+    width: 120px;
+    height: 120px;
+    background: url(sprite_home.png) -402px 15px;
+}
+
+#FlipSI {
+    background-color: #75D7E6;
+}
+
+#Link {
+    width: 120px;
+    height: 120px;
+    background: url(sprite_home.png) 5px 15px;
+}
+
+#FlipITT {
+    background-color: yellowgreen;
+}
+
+#brain {
+    width: 120px;
+    height: 120px;
+    background: url(sprite_home.png) -195px 20px;
+}
+
+#LCD2 {
+    background-color: #E6E6E6;
+    height: 50vh;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    line-height: 34px;
+    color: dimgray;
+}
+
+#pencilwrench {
+    background: url(sprite_home.png)-10px -100px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#HHIW {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.ygc {
+    color: yellowgreen;
+}
+
+#LCD3 {
+    height: 80vh;
+    background-color: white;
+    display: -webkit-flex;
+    display: flex;
+    padding: 20px 10%;
+}
+
+.flexcol {
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+}
+
+#fc1 {
+    
+}
+
+#fc2 {
+    
+}
+
+#borders {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    height: 60vh;
+    position: relative;
+    top: 60px;
+}
+
+#fc3 {
+    
+}
+
+.icons3 {
+    margin: 100px auto;
+    width: 130px;
+    height: 160px;
+}
+
+#LBIcon {
+    background: url(sprite_home.png)-307px, -50px;
+}
+
+.link3c {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.link3c:hover {
+    text-decoration: underline;
+    color: midnightblue;
+}
+
+#ArrowIcon {
+    background: url(sprite_home.png)-210px -75px;
+    width: 100px;
+    position: relative;
+    top: -475px;
+}
+
+#wideopen {
+    position: relative;
+    top: -480px;
+}
+
+#PowerIcon {
+    background: url(sprite_home.png)-97px, -50px;
+}
+
+#LCD4 {
+    background-color: #E6E6E6;
+    height: 80vh;
+    text-align: center;
+    padding-top: 1px;
+}
+
+#fewways {
+    font-size: 24px;
+    margin-top: -25px;
+}
